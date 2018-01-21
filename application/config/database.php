@@ -94,3 +94,11 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+if(ENVIRONMENT == 'production')
+{
+	$db['default']['hostname'] = 'db720115052.db.1and1.com';
+	$db['default']['database'] = 'db720115052';
+	$db['default']['username'] = 'dbo720115052';
+	$db['default']['password'] = 'N!w_778Ef=E|96%U';
+}
