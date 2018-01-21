@@ -95,7 +95,7 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 
-if(file_exists("database.production.php"))
+if(file_exists(APPPATH . 'config/database.production.php'))
 {
-	require_once("database.production.php");
+	require_once(APPPATH . 'config/database.production.php');
 }
