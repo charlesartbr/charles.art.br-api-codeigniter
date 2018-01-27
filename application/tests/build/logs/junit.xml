@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Agency_model_test" file="C:\Projetos\charles.art.br\charles.art.br-api-codeigniter\application\tests\models\Agency_model_test.php" tests="1" assertions="4" failures="0" errors="0" time="0.095439">
+    <testcase name="test_get_all" class="Agency_model_test" file="C:\Projetos\charles.art.br\charles.art.br-api-codeigniter\application\tests\models\Agency_model_test.php" line="10" assertions="4" time="0.095439"/>
+  </testsuite>
+</testsuites>

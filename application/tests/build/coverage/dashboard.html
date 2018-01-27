@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\Projetos\charles.art.br\charles.art.br-api-codeigniter\application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nv.d3.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">C:\Projetos\charles.art.br\charles.art.br-api-codeigniter\application</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="libraries/REST_Controller.php.html#17">REST_Controller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Job_model.php.html#3">Job_model</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Technology_model.php.html#3">Technology_model</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Agency.php.html#5">Agency</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#12">Format</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Job.php.html#5">Job</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Technology.php.html#5">Technology</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Home.php.html#5">Home</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Agency_model.php.html#3">Agency_model</a></td><td class="text-right">25%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="libraries/REST_Controller.php.html#17">REST_Controller</a></td><td class="text-right">79806</td></tr>
+       <tr><td><a href="libraries/Format.php.html#12">Format</a></td><td class="text-right">4290</td></tr>
+       <tr><td><a href="models/Job_model.php.html#3">Job_model</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="models/Technology_model.php.html#3">Technology_model</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="controllers/Job.php.html#5">Job</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/Agency.php.html#5">Agency</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/Technology.php.html#5">Technology</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/Agency_model.php.html#3">Agency_model</a></td><td class="text-right">10</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="libraries/REST_Controller.php.html#1696"><abbr title="REST_Controller::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1677"><abbr title="REST_Controller::head">head</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1658"><abbr title="REST_Controller::options">options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1715"><abbr title="REST_Controller::put">put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1734"><abbr title="REST_Controller::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1791"><abbr title="REST_Controller::_xss_clean">_xss_clean</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1772"><abbr title="REST_Controller::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1753"><abbr title="REST_Controller::patch">patch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1639"><abbr title="REST_Controller::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1623"><abbr title="REST_Controller::_parse_query">_parse_query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1535"><abbr title="REST_Controller::_parse_put">_parse_put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1519"><abbr title="REST_Controller::_parse_post">_parse_post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1507"><abbr title="REST_Controller::_parse_get">_parse_get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1558"><abbr title="REST_Controller::_parse_head">_parse_head</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1573"><abbr title="REST_Controller::_parse_options">_parse_options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1608"><abbr title="REST_Controller::_parse_delete">_parse_delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1588"><abbr title="REST_Controller::_parse_patch">_parse_patch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1804"><abbr title="REST_Controller::validation_errors">validation_errors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1821"><abbr title="REST_Controller::_perform_ldap_auth">_perform_ldap_auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2302"><abbr title="REST_Controller::_check_cors">_check_cors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2260"><abbr title="REST_Controller::_check_access">_check_access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2240"><abbr title="REST_Controller::_log_response_code">_log_response_code</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Agency_model.php.html#10"><abbr title="Agency_model::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Job_model.php.html#5"><abbr title="Job_model::get_all">get_all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Technology_model.php.html#10"><abbr title="Technology_model::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Technology_model.php.html#5"><abbr title="Technology_model::get_all">get_all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Job_model.php.html#31"><abbr title="Job_model::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2218"><abbr title="REST_Controller::_log_access_time">_log_access_time</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2182"><abbr title="REST_Controller::_force_login">_force_login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2010"><abbr title="REST_Controller::_check_php_session">_check_php_session</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1955"><abbr title="REST_Controller::_check_login">_check_login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1916"><abbr title="REST_Controller::_perform_library_auth">_perform_library_auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2032"><abbr title="REST_Controller::_prepare_basic_auth">_prepare_basic_auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2073"><abbr title="REST_Controller::_prepare_digest_auth">_prepare_digest_auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2152"><abbr title="REST_Controller::_check_whitelist_auth">_check_whitelist_auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2130"><abbr title="REST_Controller::_check_blacklist_auth">_check_blacklist_auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1315"><abbr title="REST_Controller::_auth_override_check">_auth_override_check</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1210"><abbr title="REST_Controller::_check_limit">_check_limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#306"><abbr title="Format::to_csv">to_csv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#251"><abbr title="Format::to_html">to_html</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#174"><abbr title="Format::to_xml">to_xml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#395"><abbr title="Format::to_json">to_json</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#433"><abbr title="Format::to_serialized">to_serialized</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#484"><abbr title="Format::_from_csv">_from_csv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#470"><abbr title="Format::_from_xml">_from_xml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#452"><abbr title="Format::to_php">to_php</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#134"><abbr title="Format::to_array">to_array</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#117"><abbr title="Format::factory">factory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Job.php.html#7"><abbr title="Job::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Home.php.html#7"><abbr title="Home::index_get">index_get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Agency.php.html#14"><abbr title="Agency::index_get">index_get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Job.php.html#14"><abbr title="Job::index_get">index_get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Technology.php.html#7"><abbr title="Technology::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#83"><abbr title="Format::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Technology.php.html#14"><abbr title="Technology::index_get">index_get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#505"><abbr title="Format::_from_json">_from_json</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#514"><abbr title="Format::_from_serialize">_from_serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#970"><abbr title="REST_Controller::_detect_output_format">_detect_output_format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#958"><abbr title="REST_Controller::_get_default_output_format">_get_default_output_format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#922"><abbr title="REST_Controller::_detect_input_format">_detect_input_format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1041"><abbr title="REST_Controller::_detect_method">_detect_method</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1073"><abbr title="REST_Controller::_detect_api_key">_detect_api_key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1182"><abbr title="REST_Controller::_log_request">_log_request</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1147"><abbr title="REST_Controller::_detect_lang">_detect_lang</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#911"><abbr title="REST_Controller::set_response">set_response</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#822"><abbr title="REST_Controller::response">response</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#390"><abbr title="REST_Controller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#379"><abbr title="REST_Controller::early_checks">early_checks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/Format.php.html#523"><abbr title="Format::_from_php">_from_php</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#598"><abbr title="REST_Controller::get_local_config">get_local_config</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#621"><abbr title="REST_Controller::__destruct">__destruct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#665"><abbr title="REST_Controller::_remap">_remap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#639"><abbr title="REST_Controller::preflight_checks">preflight_checks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/Agency.php.html#7"><abbr title="Agency::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="libraries/REST_Controller.php.html#665"><abbr title="REST_Controller::_remap">_remap</abbr></a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#390"><abbr title="REST_Controller::__construct">__construct</abbr></a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1315"><abbr title="REST_Controller::_auth_override_check">_auth_override_check</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="libraries/Format.php.html#174"><abbr title="Format::to_xml">to_xml</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#970"><abbr title="REST_Controller::_detect_output_format">_detect_output_format</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1210"><abbr title="REST_Controller::_check_limit">_check_limit</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#822"><abbr title="REST_Controller::response">response</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1073"><abbr title="REST_Controller::_detect_api_key">_detect_api_key</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="libraries/Format.php.html#306"><abbr title="Format::to_csv">to_csv</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1955"><abbr title="REST_Controller::_check_login">_check_login</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1821"><abbr title="REST_Controller::_perform_ldap_auth">_perform_ldap_auth</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2073"><abbr title="REST_Controller::_prepare_digest_auth">_prepare_digest_auth</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="libraries/Format.php.html#251"><abbr title="Format::to_html">to_html</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2032"><abbr title="REST_Controller::_prepare_basic_auth">_prepare_basic_auth</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="libraries/Format.php.html#134"><abbr title="Format::to_array">to_array</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1041"><abbr title="REST_Controller::_detect_method">_detect_method</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="libraries/Format.php.html#395"><abbr title="Format::to_json">to_json</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#922"><abbr title="REST_Controller::_detect_input_format">_detect_input_format</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2302"><abbr title="REST_Controller::_check_cors">_check_cors</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1916"><abbr title="REST_Controller::_perform_library_auth">_perform_library_auth</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2182"><abbr title="REST_Controller::_force_login">_force_login</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2260"><abbr title="REST_Controller::_check_access">_check_access</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1535"><abbr title="REST_Controller::_parse_put">_parse_put</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1147"><abbr title="REST_Controller::_detect_lang">_detect_lang</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1182"><abbr title="REST_Controller::_log_request">_log_request</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="models/Job_model.php.html#5"><abbr title="Job_model::get_all">get_all</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1715"><abbr title="REST_Controller::put">put</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1696"><abbr title="REST_Controller::post">post</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1734"><abbr title="REST_Controller::delete">delete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1791"><abbr title="REST_Controller::_xss_clean">_xss_clean</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1753"><abbr title="REST_Controller::patch">patch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1772"><abbr title="REST_Controller::query">query</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1677"><abbr title="REST_Controller::head">head</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/Technology_model.php.html#10"><abbr title="Technology_model::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#598"><abbr title="REST_Controller::get_local_config">get_local_config</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/Agency_model.php.html#10"><abbr title="Agency_model::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/Format.php.html#484"><abbr title="Format::_from_csv">_from_csv</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/Format.php.html#452"><abbr title="Format::to_php">to_php</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/Format.php.html#433"><abbr title="Format::to_serialized">to_serialized</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#639"><abbr title="REST_Controller::preflight_checks">preflight_checks</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/Format.php.html#83"><abbr title="Format::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1588"><abbr title="REST_Controller::_parse_patch">_parse_patch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1658"><abbr title="REST_Controller::options">options</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="models/Job_model.php.html#31"><abbr title="Job_model::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2152"><abbr title="REST_Controller::_check_whitelist_auth">_check_whitelist_auth</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1639"><abbr title="REST_Controller::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2218"><abbr title="REST_Controller::_log_access_time">_log_access_time</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2240"><abbr title="REST_Controller::_log_response_code">_log_response_code</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1519"><abbr title="REST_Controller::_parse_post">_parse_post</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/Format.php.html#470"><abbr title="Format::_from_xml">_from_xml</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/Technology.php.html#14"><abbr title="Technology::index_get">index_get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/Job.php.html#14"><abbr title="Job::index_get">index_get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#621"><abbr title="REST_Controller::__destruct">__destruct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#958"><abbr title="REST_Controller::_get_default_output_format">_get_default_output_format</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2010"><abbr title="REST_Controller::_check_php_session">_check_php_session</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#1608"><abbr title="REST_Controller::_parse_delete">_parse_delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/Agency.php.html#14"><abbr title="Agency::index_get">index_get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="libraries/REST_Controller.php.html#2130"><abbr title="REST_Controller::_check_blacklist_auth">_check_blacklist_auth</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="https://secure.php.net/" target="_top">PHP 5.5.12</a> and <a href="https://phpunit.de/">PHPUnit 4.8.36</a> at Sat Jan 27 16:21:03 CET 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/holder.min.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,1,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([74,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"controllers\/Agency.php.html#5\">Agency<\/a>"],[0,1,"<a href=\"controllers\/Home.php.html#5\">Home<\/a>"],[0,3,"<a href=\"controllers\/Job.php.html#5\">Job<\/a>"],[0,3,"<a href=\"controllers\/Technology.php.html#5\">Technology<\/a>"],[0,65,"<a href=\"libraries\/Format.php.html#12\">Format<\/a>"],[0,282,"<a href=\"libraries\/REST_Controller.php.html#17\">REST_Controller<\/a>"],[25,4,"<a href=\"models\/Agency_model.php.html#3\">Agency_model<\/a>"],[0,7,"<a href=\"models\/Job_model.php.html#3\">Job_model<\/a>"],[0,4,"<a href=\"models\/Technology_model.php.html#3\">Technology_model<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"controllers\/Agency.php.html#7\">Agency::__construct<\/a>"],[0,2,"<a href=\"controllers\/Agency.php.html#14\">Agency::index_get<\/a>"],[0,1,"<a href=\"controllers\/Home.php.html#7\">Home::index_get<\/a>"],[0,1,"<a href=\"controllers\/Job.php.html#7\">Job::__construct<\/a>"],[0,2,"<a href=\"controllers\/Job.php.html#14\">Job::index_get<\/a>"],[0,1,"<a href=\"controllers\/Technology.php.html#7\">Technology::__construct<\/a>"],[0,2,"<a href=\"controllers\/Technology.php.html#14\">Technology::index_get<\/a>"],[0,3,"<a href=\"libraries\/Format.php.html#83\">Format::__construct<\/a>"],[0,1,"<a href=\"libraries\/Format.php.html#117\">Format::factory<\/a>"],[0,7,"<a href=\"libraries\/Format.php.html#134\">Format::to_array<\/a>"],[0,17,"<a href=\"libraries\/Format.php.html#174\">Format::to_xml<\/a>"],[0,7,"<a href=\"libraries\/Format.php.html#251\">Format::to_html<\/a>"],[0,11,"<a href=\"libraries\/Format.php.html#306\">Format::to_csv<\/a>"],[0,5,"<a href=\"libraries\/Format.php.html#395\">Format::to_json<\/a>"],[0,3,"<a href=\"libraries\/Format.php.html#433\">Format::to_serialized<\/a>"],[0,3,"<a href=\"libraries\/Format.php.html#452\">Format::to_php<\/a>"],[0,2,"<a href=\"libraries\/Format.php.html#470\">Format::_from_xml<\/a>"],[0,3,"<a href=\"libraries\/Format.php.html#484\">Format::_from_csv<\/a>"],[0,1,"<a href=\"libraries\/Format.php.html#505\">Format::_from_json<\/a>"],[0,1,"<a href=\"libraries\/Format.php.html#514\">Format::_from_serialize<\/a>"],[0,1,"<a href=\"libraries\/Format.php.html#523\">Format::_from_php<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#379\">REST_Controller::early_checks<\/a>"],[0,29,"<a href=\"libraries\/REST_Controller.php.html#390\">REST_Controller::__construct<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#598\">REST_Controller::get_local_config<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#621\">REST_Controller::__destruct<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#639\">REST_Controller::preflight_checks<\/a>"],[0,36,"<a href=\"libraries\/REST_Controller.php.html#665\">REST_Controller::_remap<\/a>"],[0,12,"<a href=\"libraries\/REST_Controller.php.html#822\">REST_Controller::response<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#911\">REST_Controller::set_response<\/a>"],[0,5,"<a href=\"libraries\/REST_Controller.php.html#922\">REST_Controller::_detect_input_format<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#958\">REST_Controller::_get_default_output_format<\/a>"],[0,15,"<a href=\"libraries\/REST_Controller.php.html#970\">REST_Controller::_detect_output_format<\/a>"],[0,6,"<a href=\"libraries\/REST_Controller.php.html#1041\">REST_Controller::_detect_method<\/a>"],[0,11,"<a href=\"libraries\/REST_Controller.php.html#1073\">REST_Controller::_detect_api_key<\/a>"],[0,4,"<a href=\"libraries\/REST_Controller.php.html#1147\">REST_Controller::_detect_lang<\/a>"],[0,4,"<a href=\"libraries\/REST_Controller.php.html#1182\">REST_Controller::_log_request<\/a>"],[0,13,"<a href=\"libraries\/REST_Controller.php.html#1210\">REST_Controller::_check_limit<\/a>"],[0,27,"<a href=\"libraries\/REST_Controller.php.html#1315\">REST_Controller::_auth_override_check<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#1507\">REST_Controller::_parse_get<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#1519\">REST_Controller::_parse_post<\/a>"],[0,4,"<a href=\"libraries\/REST_Controller.php.html#1535\">REST_Controller::_parse_put<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#1558\">REST_Controller::_parse_head<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#1573\">REST_Controller::_parse_options<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1588\">REST_Controller::_parse_patch<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#1608\">REST_Controller::_parse_delete<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#1623\">REST_Controller::_parse_query<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1639\">REST_Controller::get<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1658\">REST_Controller::options<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1677\">REST_Controller::head<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1696\">REST_Controller::post<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1715\">REST_Controller::put<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1734\">REST_Controller::delete<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1753\">REST_Controller::patch<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1772\">REST_Controller::query<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#1791\">REST_Controller::_xss_clean<\/a>"],[0,1,"<a href=\"libraries\/REST_Controller.php.html#1804\">REST_Controller::validation_errors<\/a>"],[0,10,"<a href=\"libraries\/REST_Controller.php.html#1821\">REST_Controller::_perform_ldap_auth<\/a>"],[0,5,"<a href=\"libraries\/REST_Controller.php.html#1916\">REST_Controller::_perform_library_auth<\/a>"],[0,10,"<a href=\"libraries\/REST_Controller.php.html#1955\">REST_Controller::_check_login<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#2010\">REST_Controller::_check_php_session<\/a>"],[0,7,"<a href=\"libraries\/REST_Controller.php.html#2032\">REST_Controller::_prepare_basic_auth<\/a>"],[0,9,"<a href=\"libraries\/REST_Controller.php.html#2073\">REST_Controller::_prepare_digest_auth<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#2130\">REST_Controller::_check_blacklist_auth<\/a>"],[0,3,"<a href=\"libraries\/REST_Controller.php.html#2152\">REST_Controller::_check_whitelist_auth<\/a>"],[0,4,"<a href=\"libraries\/REST_Controller.php.html#2182\">REST_Controller::_force_login<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#2218\">REST_Controller::_log_access_time<\/a>"],[0,2,"<a href=\"libraries\/REST_Controller.php.html#2240\">REST_Controller::_log_response_code<\/a>"],[0,4,"<a href=\"libraries\/REST_Controller.php.html#2260\">REST_Controller::_check_access<\/a>"],[0,5,"<a href=\"libraries\/REST_Controller.php.html#2302\">REST_Controller::_check_cors<\/a>"],[100,1,"<a href=\"models\/Agency_model.php.html#5\">Agency_model::get_all<\/a>"],[0,3,"<a href=\"models\/Agency_model.php.html#10\">Agency_model::get<\/a>"],[0,4,"<a href=\"models\/Job_model.php.html#5\">Job_model::get_all<\/a>"],[0,3,"<a href=\"models\/Job_model.php.html#31\">Job_model::get<\/a>"],[0,1,"<a href=\"models\/Technology_model.php.html#5\">Technology_model::get_all<\/a>"],[0,3,"<a href=\"models\/Technology_model.php.html#10\">Technology_model::get<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

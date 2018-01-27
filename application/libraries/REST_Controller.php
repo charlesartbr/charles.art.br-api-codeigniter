@@ -793,6 +793,11 @@ abstract class REST_Controller extends CI_Controller {
                 call_user_func_array([$this, $controller_method], $arguments);
             }
         }
+        catch (CIPHPUnitTestExitException $ex)
+        {
+            // This block is for ci-phpunit-test
+            throw $ex;
+        }
         catch (Exception $ex)
         {
             if ($this->config->item('rest_handle_exceptions') === FALSE) {
